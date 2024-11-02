@@ -1,0 +1,19 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-lambda-powertools/tracer": "^2.10.0",
+    "@aws-sdk/client-rds-data": "^3.679.0",
+    "@middy/core": "^5.5.1",
+    "@types/aws-lambda": "^8.10.145",
+    "aws-xray-sdk-core": "^3.10.1"
+  }
+}
